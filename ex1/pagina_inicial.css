@@ -1,0 +1,27 @@
+img.logo {
+    width: 250px;
+    height: 250px;
+    position: center;
+}  
+
+h1 {
+    color: #333;
+    position: center;
+}
+
+.botao {
+    width: 200px;
+    height: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="register.css">
+    <title>Register</title>
+</head>
+<body>
+    <input type="button" class="voltar" value="<Back" onclick="window.location.href='pagina_inicial.html'"> 
+    <h1>Sign Up</h1>
+    <div class="container">
+        <div class="caixa-cinza">
+            <div class="formulario">
+                <form action="#" method="post">              
+                    <label for="name">* Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+
+                    <label for="email">* Email:</label>  
+                    <input type="email" id="email" name="email"><br><br>
+
+                    <label for="password">* Password:</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    <button type="button" class="toggle-password" onclick="togglePasswordVisibility()">?</button>
+
+                    <label for="retype-password">* Re-type password:</label>
+                    <input type="password" class= "retype"id="retype-password" name="retype-password"><br><br>
+
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms">
+                        I agree to the <a href="">Terms of Use</a>  and <a href="">Privacy Policy</a>.
+                    </label><br><br>
+
+                    <input type="button" value="Sign Up">
+                    <a href="" class="link" title="Learn more">Learn more</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2024 - All rights reserved by Lourenço Silva</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+h1 {
+    color: #333;
+    margin-left: 550px;
+    font-size: 70px;
+}
+
+input[type="text"] {
+    width: 84.5%; 
+    padding: 8px; 
+}
+
+input[type="email"] {
+    width: 84.5%; 
+    padding: 8px; 
+}
+
+input[type="password"] {
+    width: 80%; 
+    padding: 8px; 
+}
+
+input.retype {
+    width: 70%; 
+    padding: 8px; 
+}
+
+input[type="button"] {
+    width: 20%; 
+    padding: 8px; 
+    height: 70px;
+    font-size: 20px;
+}
+
+.toggle-password {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    transition: background-color 0.3s;
+    margin-left: -35px; /* Ajuste conforme necessário para alinhar com o campo de senha */
+}
+
+.toggle-password:hover {
+    background-color: #ddd;
+}
+
+label {
+    font-size: 30px; 
+}
+
+input.voltar {
+    width: 200px;
+    height: 70px;
+}
+
+input.botao {
+    width: 100px;
+    height: 50px;
+    display: block; 
+}
+
+.caixa-cinza {
+    background-color: #ccc;
+    padding: 90px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.link{
+    width: 50%; 
+    padding: 8px; 
+    margin-left: 70px; 
+    height: 70px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

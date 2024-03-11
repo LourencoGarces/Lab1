@@ -47,6 +47,7 @@ input[type="button"] {
 
 .toggle-password:hover {
     background-color: #ddd;
+    
 }
 
 label {
@@ -86,4 +87,8 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+footer p {
+    margin-right: 1500px; 
 }
